@@ -1,12 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    /*Q8. Write a C program that:
- Takes two numbers and an operator (+, -, *, /, %, ^).
- Uses a switch statement to perform:
-o Addition, subtraction, multiplication, division, modulus, and power.
-
- Handle invalid operators and division by zero*/
+ 
 int num1 ,num2 ,operator,result;
 printf("Enter two numbers:\n ");
 scanf("%d \n%d",&num1,&num2);
@@ -53,4 +48,5 @@ default:
 printf("your result is %d",result);
 
     return 0;
+
 }
