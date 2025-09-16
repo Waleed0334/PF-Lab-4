@@ -2,7 +2,7 @@
 int main(){
     
 int integer;
-printf("Enter the integer : \n");
+printf("Enter any integer : \n");
 scanf("%d",&integer);
 if (integer>0)
 {
@@ -16,3 +16,4 @@ if (integer>0)
 }
     return 0;
 }
+
